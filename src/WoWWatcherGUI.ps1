@@ -175,7 +175,7 @@ function Write-JsonFile {
 function Write-AtomicFile {
     param(
         [Parameter(Mandatory)][string]$Path,
-        [Parameter(Mandatory)][string]$Content,
+        [Parameter(Mandatory)][AllowEmptyString()][string]$Content,
         [System.Text.Encoding]$Encoding = [System.Text.Encoding]::UTF8
     )
 
@@ -4866,7 +4866,7 @@ $BtnRunFullBackup.Add_Click({
       function Write-AtomicFile {
                 param(
                     [Parameter(Mandatory)][string]$Path,
-                    [Parameter(Mandatory)][string]$Content
+                    [Parameter(Mandatory)][AllowEmptyString()][string]$Content
                 )
 
                 $dir = Split-Path -Parent $Path
@@ -5727,7 +5727,7 @@ function Start-SppV2RepackUpdate {
                 function Write-AtomicFile {
                 param(
                     [Parameter(Mandatory)][string]$Path,
-                    [Parameter(Mandatory)][string]$Content
+                    [Parameter(Mandatory)][AllowEmptyString()][string]$Content
                 )
 
                 $dir = Split-Path -Parent $Path
