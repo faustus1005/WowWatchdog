@@ -465,6 +465,30 @@ $ThemePalettes = [ordered]@{
         "Theme.TextInfoBrush"            = "#FFE6F2FF"
         "Theme.TextHighlightBrush"       = "#FFFFD24D"
     }
+    "Wrath of the Lich King" = [ordered]@{
+        "Theme.WindowBackgroundBrush"    = "#FF0A0F16"
+        "Theme.InputBackgroundBrush"     = "#FF0F1621"
+        "Theme.TitleBackgroundBrush"     = "#FF0E1623"
+        "Theme.PanelGradientTopColor"    = "#FF131B2B"
+        "Theme.PanelGradientBottomColor" = "#FF0B121C"
+        "Theme.BorderStrongBrush"        = "#FF2A3B52"
+        "Theme.BorderInputBrush"         = "#FF36516B"
+        "Theme.ButtonPrimaryBrush"       = "#FF4FA3C7"
+        "Theme.ButtonPrimaryBorderBrush" = "#FF337C9C"
+        "Theme.ButtonStartBrush"         = "#FF2F7A8F"
+        "Theme.ButtonStartBorderBrush"   = "#FF215766"
+        "Theme.ButtonStopBrush"          = "#FF7A3A3A"
+        "Theme.ButtonStopBorderBrush"    = "#FF5A2626"
+        "Theme.ButtonSecondaryBrush"     = "#FF14202E"
+        "Theme.TitleCloseBackgroundBrush"= "#FF3B1C24"
+        "Theme.TitleCloseBorderBrush"    = "#FF5E2A38"
+        "Theme.TextHeadingBrush"         = "#FFBFE7FF"
+        "Theme.TextSubtleBrush"          = "#FF8FC6E6"
+        "Theme.TextDisabledBrush"        = "#FF777777"
+        "Theme.TextWarningBrush"         = "#FFFFB347"
+        "Theme.TextInfoBrush"            = "#FFE6F2FF"
+        "Theme.TextHighlightBrush"       = "#FF8CE8FF"
+    }
 }
 
 function Ensure-UrlZipToolInstalled {
