@@ -28,6 +28,7 @@ It is geared mostly towards the SPP Legion Repack, so many of the features will 
   - Connect/configure RA console
   - View console output in-app
   - Send commands from the launcher
+- Live log viewing of your servers various log files
 
 ### Notifications & Security
 - **NTFY** notifications with:
@@ -64,7 +65,7 @@ It is geared mostly towards the SPP Legion Repack, so many of the features will 
 - ProgramData-based config/logs/tools layout for consistent machine-wide storage
 - **Portable mode** supported (no installer required)
 
-![Main](https://github.com/user-attachments/assets/013e7cb3-9dbb-48c2-a31a-94980dacde08)
+![Main](https://github.com/user-attachments/assets/e68bba5b-968a-458c-b74c-0d757a77ca78)
 ![Conf](https://github.com/user-attachments/assets/045be4d1-a628-4623-9ba6-46896a797c72)
 ![Tools](https://github.com/user-attachments/assets/1485eb82-eddc-4219-9555-3e31f8bcffdb)
 ![WorldserverConsole](https://github.com/user-attachments/assets/676e162a-486b-4660-8a2b-b98fcabbd8cc)
