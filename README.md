@@ -83,6 +83,8 @@ It is geared mostly towards the SPP Legion Repack, so many of the features will 
 
 ## 🚀 Quick Start
 
+Need more detail? Check out the dedicated getting started guide: [docs/getting-started.md](docs/getting-started.md).
+
 ### Prerequisites
 
 *   **PowerShell**:
