@@ -1146,7 +1146,7 @@
 <!-- ================================================= -->
 <!-- TAB 3: Tools                                      -->
 <!-- ================================================= -->
-<TabItem Header="Tools">
+<TabItem Header="Tools" x:Name="TabTools" Visibility="Collapsed">
   <Grid Margin="12">
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>  <!-- Launchers -->
@@ -1815,7 +1815,7 @@
 <!-- ================================================= -->
   <!-- TAB 4: Updates                                   -->
   <!-- ================================================= -->
-  <TabItem Header="Updates">
+  <TabItem Header="Updates" x:Name="TabUpdates" Visibility="Collapsed">
     <ScrollViewer VerticalScrollBarVisibility="Auto"
                   HorizontalScrollBarVisibility="Disabled">
 

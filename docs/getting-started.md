@@ -30,7 +30,6 @@ In portable mode, WoW-Watchdog stores data alongside the executable:
 - `data\config.json` for configuration
 - `data\secrets.json` for encrypted notification credentials
 - `logs\` for logs
-- `tools\` for helper tools
 
 > Tip: Portable mode skips the automatic elevation prompt. Use it when you want to keep everything self-contained.
 
@@ -58,18 +57,12 @@ Make sure to click **Save Configuration** so your paths and notification setting
 - `%ProgramData%\WoWWatchdog\config.json`
 - `%ProgramData%\WoWWatchdog\secrets.json`
 - `%ProgramData%\WoWWatchdog\watchdog.log`
-- `%ProgramData%\WoWWatchdog\backups\` (default backup location)
 
 **Portable mode:**
 
 - `data\config.json`
 - `data\secrets.json`
 - `logs\watchdog.log`
-- `data\backups\` (default backup location)
-
-## Updating
-
-Use the **Updates** tab in the GUI to pull the latest GitHub release and apply it safely. The update flow stops the service, installs the update, and restores service operation afterwards.
 
 ## Troubleshooting Quick Tips
 
@@ -80,4 +73,3 @@ Use the **Updates** tab in the GUI to pull the latest GitHub release and apply i
 ## Next Steps
 
 - Review the full feature list and configuration details in the main README.
-- Explore the **Tools** tab for optional companion utilities.
