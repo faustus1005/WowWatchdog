@@ -12,7 +12,7 @@ WoW-Watchdog is a robust PowerShell-based application designed to monitor the st
 
 This tool runs quietly in the background, periodically checking specified servers and alerting you to changes such as a server going offline, or optionally, when the server is back online.
 
-It is geared mostly towards the SPP Legion Repack, so many of the features will not work with other repacks without modification, but the core feature of starting/stopping/notifying should work for most WoW Private servers.
+This version of the Wow Watcher app is geared towards being repack agnostic, so the core features of starting/stopping/notifying should work for most WoW Private servers. If you find a repack it does not work with, please let me know, I'm more than happy to add support.
 
 ## Features
 
@@ -28,10 +28,6 @@ It is geared mostly towards the SPP Legion Repack, so many of the features will 
 - Service status + health indicators (GUI ↔ service heartbeat)
 - Online player count (when DB is configured/reachable; safe fallback when not)
 - CPU/Memory usage snapshots (periodic refresh)
-- Worldserver console integration (RA):
-  - Connect/configure RA console
-  - View console output in-app
-  - Send commands from the launcher
 - Live log viewing of your servers various log files
 
 ### Notifications & Security
@@ -40,29 +36,6 @@ It is geared mostly towards the SPP Legion Repack, so many of the features will 
   - Token auth
   - Auth mode selector with dynamic fields
 - Sensitive values stored encrypted in `secrets.json` (auto-used on reload)
-
-### Updates
-- Check for and update to the latest **GitHub Release** from within the app
-- Update workflow stops the watchdog safely and maintains graceful shutdown behavior
-- Handles SPP Legion Repack update process with graceful shutdown, backup, update, and restart behaviors
-
-### Backup & Restore
-- Database backup/restore:
-  - Select destination
-  - ZIP compression by default
-  - Retention policy (default 14 days)
-  - Restore from `.sql` or `.zip`
-- Full server/repack backup:
-  - Graceful stop order: **World → Auth → DB**
-  - ZIP the entire repack folder
-  - Restart order: **DB → Auth → World**
-- Option to back up only Auth/World configuration files
-- Backup destinations support **UNC paths** (e.g., `\\server\share\folder`)
-
-### Tools
-- Integrated tooling tab for companion utilities
-- SPP V2 Legion Management app support (managed install/launch)
-- Battle Shop Editor support (installed/managed under ProgramData)
 
 ### Deployment & Portability
 - Standard installer via **Inno Setup**
