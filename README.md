@@ -39,14 +39,12 @@ This version of the Wow Watcher app is geared towards being repack agnostic, so 
 
 ### Deployment & Portability
 - Standard installer via **Inno Setup**
-- ProgramData-based config/logs/tools layout for consistent machine-wide storage
+- ProgramData-based config/logs layout for consistent machine-wide storage
 - **Portable mode** supported (no installer required)
 
 ![Main](https://github.com/user-attachments/assets/e68bba5b-968a-458c-b74c-0d757a77ca78)
 ![Conf](https://github.com/user-attachments/assets/045be4d1-a628-4623-9ba6-46896a797c72)
-![Tools](https://github.com/user-attachments/assets/1485eb82-eddc-4219-9555-3e31f8bcffdb)
 ![WorldserverConsole](https://github.com/user-attachments/assets/676e162a-486b-4660-8a2b-b98fcabbd8cc)
-![Updates](https://github.com/user-attachments/assets/51757596-6baf-4370-8ff3-f93c251c0f79)
 
 ## 🚀 Quick Start
 
