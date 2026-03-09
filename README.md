@@ -42,9 +42,7 @@ This version of the Wow Watcher app is geared towards being repack agnostic, so 
 - ProgramData-based config/logs layout for consistent machine-wide storage
 - **Portable mode** supported (no installer required)
 
-![Main](https://github.com/user-attachments/assets/e68bba5b-968a-458c-b74c-0d757a77ca78)
-![Conf](https://github.com/user-attachments/assets/045be4d1-a628-4623-9ba6-46896a797c72)
-![WorldserverConsole](https://github.com/user-attachments/assets/676e162a-486b-4660-8a2b-b98fcabbd8cc)
+*Place holder for Screenshots*
 
 ## 🚀 Quick Start
 
